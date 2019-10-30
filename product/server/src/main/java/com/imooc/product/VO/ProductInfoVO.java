@@ -1,7 +1,6 @@
 package com.imooc.product.VO;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.sun.javafx.beans.IDProperty;
 import lombok.Data;
 
 import java.math.BigDecimal;

@@ -1,0 +1,17 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/chenzhouc/config-ropo.git
+          username: 1521058406@qq.com
+          password: czlr195621707521
+          basedir: C:\work\idea-workspace\springcloud\config\basedir
+server:
+  port: 9000
